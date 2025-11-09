@@ -102,3 +102,15 @@ body {
       color: white;
       padding: 1rem;
     }
+
+    .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media(max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
