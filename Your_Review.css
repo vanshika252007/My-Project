@@ -52,4 +52,18 @@ button:hover {
 body{
     background-image: url(https://i.pinimg.com/736x/9a/5e/4e/9a5e4e0db1cdc2057ba2dd2ce8c995b1.jpg);
     background-size: 75%;
+    body {
+   background-image: url('https://i.pinimg.com/736x/9a/5e/4e/9a5e4e0db1cdc2057ba2dd2ce8c995b1.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+ }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
